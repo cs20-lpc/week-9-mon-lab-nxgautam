@@ -70,7 +70,7 @@ void LinkedQueue<T>::dequeue() {
 
     if(isEmpty())
     {
-       throw string ("dequeue error: Queue is empty!");
+       throw string ("dequeue error: queue is empty!");
     }
 
     Node * temp = head;
