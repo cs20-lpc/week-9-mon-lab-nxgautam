@@ -31,7 +31,7 @@ T LinkedQueue<T>::back() const {
     // TODO
     if(isEmpty())
     {
-        throw string("back, error: queue is empty!");
+        throw string("back error: queue is empty!");
     }
     return last->value;
 
@@ -70,7 +70,7 @@ void LinkedQueue<T>::dequeue() {
 
     if(isEmpty())
     {
-       throw string ("dequeue, error: Queue is empty!");
+       throw string ("dequeue error: Queue is empty!");
     }
 
     Node * temp = head;
@@ -111,7 +111,7 @@ T LinkedQueue<T>::front() const {
     // TODO
     if(isEmpty())
     {
-        throw string("front, error: queue is empty!");
+        throw string("front error: queue is empty!");
     }
 
     return head->value;
